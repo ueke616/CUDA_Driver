@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/data/text2_3/miniconda3/envs/trtlearn/lib/python3.8/site-packages/trtpy/trt8cuda115cudnn8/include/**"
+            ], // 按照从上至下的优先级查找头文件 去解析各种语言的语法（例如：cuda语法）
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
